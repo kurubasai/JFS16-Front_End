@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form File</title>
+    
+</head>
+<body>
+    <div>
+        <form>
+            <h1>Student Details Form</h1>
+            <label>Name : </label>
+            <input type="text"
+            placeholder="Enter Your Name" required/></br>
+            </br>           
+            <label>Date Of Birth :</label>
+            <input type="date" required/></br></br>
+            <label>Age :</label>
+            <input type="number" placeholder="Enter Your Age" required/></br></br> 
+            <label>College Name :</label>
+            <input type="text" placeholder="Enter Your College Name"/></br></br>
+            <label>Phone No :</label>
+            <input type="number" placeholder="Enter Your Ph No" required/></br></br>
+            <fieldset style="width: 10%;">
+                <legend>Gender :</legend>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label>Male</label></br></br>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label>Female</label>
+
+            </fieldset>
+            <fieldset style="width: 15%;">
+                <legend>Skills :</legend>
+                <input type="checkbox" id="Java" name="skills" value="Java" />
+                <label>Java</label></br>
+                <input type="checkbox" id="Python" name="skills" value="Python" />
+                <label>Python</label></br>
+                <input type="checkbox" id="Data Science" name="skills" value="Data Science"/>
+                <label>Data Science</label>
+                <input type="checkbox" id="HTML" name="skills" value="HTML"/>
+                <label>HTML</label></br>
+                <input type="checkbox" id="CSS" name="skills" value="CSS"/>
+                <label>CSS</label></br>
+                <input type="checkbox" id="Bootstrap" name="skills" value="Bootstrap"/>
+                <label>BootStrap</label></br>
+                <input type="checkbox" id="SQL" name="skills" value="SQL"/>
+                <label>SQL</label></br></br>
+            </fieldset>
+                </br></br>
+                <label>Select Role :</label>
+                <select>
+                    <option value="student" > Student
+                    </option>
+                    <option value="employee">Employee
+
+                    </option>
+                </select>
+                   </br></br>
+                <label>Resume :</label>
+                 <input type="file" id="resume" name="resume" accept=".pdf,.doc.docx" required/>
+                  </br></br>
+                  <label>Email :</label>
+                  <input type="text" placeholder="Enter Your Email" required/>
+                 </br></br>
+                 <label>Password :</label>
+                  <input type="password" placeholder="Enter Password" required/>
+                  </br></br>
+                  <button>Submit</button>
+                
+
+            
+
+
+        </form>
+
+
+
+
+
+    </div>
+    <style>body{
+        background-color: aqua;
+    }
+        
+        </style>
+</body>
+</html>
